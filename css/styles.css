@@ -163,7 +163,7 @@ img {
 .tvshow-logo-wraper {
 	padding: 340px 0 0px;
 }
-/* Arcade & Apple Card*/
+/* Trade & Apple Card*/
 .Trade-AppleCard .left-side-wrapper .left-side-container {
 	background-image: url("../images/home/TradeinLarge.jpg");
 	background-color: #000;
@@ -459,9 +459,16 @@ img {
 .iPhone16-Pro .descrption-wrapper{
 	font-size: 20px !important;
 }
+.iPhone16bg-Pro .title-wraper{
+	font-style: bold;
+	font-size: 25px;
+}
+.iPhone16bg-Pro .description-wraper{
+	font-size: 250px;
+}
 	}
 	.iPhone16bg-Pro .descrption-wrapper{
-		font-size: 20px;
+		font-size: 25px;
 	}
 	
 	.iPhone16bg-Pro{
@@ -508,18 +515,17 @@ img {
 		right: 25px;
 	}
 @media (min-width: 768px) {
-	/*Nav bar*/
 	.nav-item {
 		text-align: center !important;
 		padding: 0;
 		border-bottom: 0px;
 	}
-	/*Alert section*/
+
 	.alert-text {
 		max-width: 85%;
 		margin: 0 auto;
 	}
-	/* First section */
+
 	.iPhone16-Pro {
 		background-image: url("../images/home/iphonepro.jpg");
 		width: 100%;
