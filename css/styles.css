@@ -62,7 +62,7 @@ img {
 	max-width: 90%;
 	margin: 0 auto;
 }
-/* iPad Pro */
+/* iPhone Pro */
 .iPhone16-Pro {
 	background-image: url("../images/home/iphonepro.jpg");
 	height: 580px;
@@ -75,6 +75,7 @@ img {
 	color: #fff;
 	margin-bottom: 10px;
 }
+
 .ipad-caption {
 	color: #86868b;
 	font-size: 12px;
@@ -83,7 +84,6 @@ img {
 	letter-spacing: -0.01em;
 	padding-top: 310px;
 }
-/* MacBook Air */
 .iPhone16bg-Pro {
 	background-image: url("../images/home/iPhone16-bg.jpg");
 	height: 550px;
@@ -96,7 +96,6 @@ img {
 	color: #fff;
 	margin-bottom: 10px;
 }
-/* iPhone 11 Pro */
 .Watch {
 	background-image: url("../images/home/watchpro.jpg");
 	height: 580px;
@@ -106,7 +105,6 @@ img {
 	text-align: center;
 	padding: 65px 20px;
 }
-/* iPhone11 & COVID-19 */
 .Fitness .left-side-wrapper .left-side-container {
 	background-image: url("../images/home/2025fitness.jpg");
 	background-color: #000;
@@ -374,7 +372,6 @@ img {
 	font-size: 36px;
 }
 .links-wrapper a {
-	
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-size: 16px !important;
@@ -427,10 +424,6 @@ img {
   }
 .by a{
 	text-decoration: none;
-
-}
-.by a:hover{
-
 }
 /*Media Query*/
 /* Footer */
@@ -441,25 +434,49 @@ img {
 		margin-top: -30px
 	}
 .iPhone16-Pro .title-wraper{
-
 		margin-top: 300px;
 		width: 100%;
 		font-style: bold;
 		font-weight: 700;
+		font-size: 25px !important;
 	}
 	.iPhone16-Pro .descrption-wrapper{
 		font-size: 20px;
 	}
+	.iPhone16bg-Pro .description-wrapper{
+		font-size: 20px;
 	}
+	.iPhone16-Pro .title-wraper{
+		font-size: 15px;
+		}
+		.description-wrapper {
+			font-size: 14px !important;
+			padding: 10px 0;
+		}
+.links-wrapper ul li a{
+	display: inline-block
+}
+.iPhone16-Pro .descrption-wrapper{
+	font-size: 20px !important;
+}
+	}
+	.iPhone16bg-Pro .descrption-wrapper{
+		font-size: 20px;
+	}
+	
 	.iPhone16bg-Pro{
 		background-image: url("../images/home/iPhone16.jpg");
 	}
 	.iPhone16bg-Pro .title-wraper{
 		margin-top: -50px;
 	}
+	
 	.MacBook-Pro .right-side-wrapper{
 		background-image: url("../images/home/Watch1.jpg");
 		width: 100%;
+	}
+	.iPhone16-Pro .title-wraper{
+		font-size: 4rem;
 	}
 	.by  {
 		font: 16px;
@@ -468,6 +485,7 @@ img {
 	.title-wraper{
 		font-size: 20px;
 	}
+	
 	.footer-links-wrapper ul {
 		display: none;
 	}
@@ -506,6 +524,7 @@ img {
 		background-image: url("../images/home/iphonepro.jpg");
 		width: 100%;
 	}
+
 	.iPhone16-Pro{
 		margin-top: 55px;
 	}
